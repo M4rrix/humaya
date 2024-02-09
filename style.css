@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    
+    background-image: url(images/imagenCentral.png);
+    background-size: cover;
+    background-position: right;
+    box-shadow: 5px 8px 12px black;
+   
+   
+
+}
+
+.navbar {
+    display: flex;
+    gap: 1.5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+li {
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    list-style: none;
+    margin: auto 0;
+}
+
+.aside {
+    text-align: center;
+    padding: 7rem;
+    color: aliceblue;
+}
+
+
+
+h1 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.btn {
+   color: aliceblue;
+   background: rgba(255, 255, 255, 0.2);
+   
+}
+
+.productos {
+    padding: 1rem;
+    text-align: center;
+    background-color: #242222;
+    color: #ffffff;
+    font-size: 1rem;
+    box-shadow: 5px 8px 12px black;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.collection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /*creamos dos columnas con una frccion de 50 y 50, para que el texto este de un lado y la iamgen del otro*/
+    height: 15rem;
+}
+
+picture img {
+    height: 100%;
+}
+
+.alfajormaicenabg {
+    background-image: url(images/Producto4b.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 8px 12px black;
+    background-repeat: no-repeat;
+}
+
+.alfajormaicena {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0 1rem;
+}
+
+.textalfajor {
+    text-align: center;
+}
+
+
+
+.divli {
+    background-color: #242222;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+.pcalidad {
+    font-size: 1.5rem;
+}
+
+.h4calidad {
+    font-size: 2rem;
+}
+
+.div-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.li {
+    width: 20%;
+}
+
+
+.div-info {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.div-info h3 {
+    color:#856C4F;
+    font-size: 1,5rem;
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
+.div-info p {
+    margin-top: 2rem;
+}
+
+.div-info h4 {
+    color: #856C4F;
+    font-size: 1rem;
+}
+
+.div-info button {
+    padding: 1rem;
+    margin: 1rem auto;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #856C4F;
+    border-color: #856C4F;
+    background: none;
+}
+
+.container-div {
+    margin: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 20rem;
+    margin: auto;
+}
+
+
+
+label {
+    color: #856C4F;
+    text-transform: uppercase;
+}
+
+input {
+    background-color: #856C4F;
+    border: none;
+    padding: 0.3rem;
+}
+
+.form button {
+    padding: 1rem;
+    margin: 1rem auto;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #856C4F;
+    border-color: #856C4F;
+    background: none;
+}
+
+.recetas {
+    background-color: #242222;
+    padding: 1rem;
+}
+
+.recetas-h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.recetas-div{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    text-align: center;
+    
+}
+
+.recetas-div-div {
+    background-color:#BCA177 ;
+    color: #856C4F;
+}
+
+.recetas-div-div p {
+    color: #ffffff;
+    padding: .5rem;
+    
+}
+
+.recetas-div-div button {
+    padding: 1rem;
+    margin: 1rem auto;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #856C4F;
+    border-color: #ffffff;
+    background: none;
+}
